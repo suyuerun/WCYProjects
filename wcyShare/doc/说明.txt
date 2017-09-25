@@ -1,0 +1,23 @@
+﻿访问路径：
+	http://192.168.1.47:3000/share/2016-09-07/2
+
+配置文件
+	/wcyshare/config/apiResCode.json # api错误码
+	/wcyshare/config/mysql.json # mysql配置
+	/wcyshare/config/redis.json # redis配置
+	/wcyshare/config/setting.json  # 应用业务配置
+
+文档
+	/wcyshare/doc/bolushare.sql  #mysql数据文件
+	/wcyshare/doc/说明.txt		#项目简单说明
+	
+
+服务开启
+	cd wcyshare
+	npm start
+
+
+
+	
+	
+	

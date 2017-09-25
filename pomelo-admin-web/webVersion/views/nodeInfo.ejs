@@ -1,0 +1,92 @@
+<html>
+<head>
+    <title></title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <script src="/js/nodeInfo.js"></script>
+    <script src="/js/vue.min.js"></script>
+    <script src="/js/vue-chartjs.full.min.js"></script>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <script src="/js/jquery-3.2.1.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+</head>
+<style>
+    .align{
+        width: 10%;
+        z-index:20;
+        margin-left:98%;
+        margin-top: 0em;
+        float: none;
+        position: absolute;
+
+    }
+</style>
+<body>
+<% include common %>
+<div id="content">
+    <table class="table table-bordered table-hover text-center" style="width:80%;height:50%;font-size: small">
+        <caption>进程信息</caption>
+        <thead>
+        <tr>
+            <th class="text-muted text-center" rowspan="2">id</th>
+            <th class="text-muted text-center" rowspan="2">time</th>
+            <th class="text-muted text-center" rowspan="2">serverId</th>
+            <th class="text-muted text-center" rowspan="2">serverType</th>
+            <th class="text-muted text-center" rowspan="2">pid</th>
+            <th class="text-muted text-center" rowspan="2">cpuAvg</th>
+            <th class="text-muted text-center" rowspan="2">memAvg</th>
+            <th class="text-muted text-center" rowspan="2">vsz</th>
+            <th class="text-muted text-center" rowspan="2">rss</th>
+            <th class="text-muted text-center" colspan="3">CPU(i/o)</th>
+        </tr>
+        <tr>
+            <td>usr</td>
+            <td>sys</td>
+            <td>gue</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr v-for="(k,v,index) in msg">
+            <td>{{index+1}}</td>
+            <td>{{k.time}}</td>
+            <td>{{v}}</td>
+            <td>{{k.serverType}}</td>
+            <td>{{k.pid}}</td>
+            <td>{{k.cpuAvg}}</td>
+            <td>{{k.memAvg}}</td>
+            <td>{{k.vsz}}</td>
+            <td>{{k.rss}}</td>
+            <td>{{k.usr}}</td>
+            <td>{{k.sys}}</td>
+            <td>{{k.gue}}</td>
+        </tr>
+        </tbody>
+    </table>
+    <div class="align">
+    <label class = "name " >请选择所显示的项目</label>
+    <select  class="form-control "  v-model="selectedItem">
+        <option selectedItem >cpuAvg</option>
+        <option v-for="opt in options" :value="opt">{{opt}}</option>
+    </select>
+    <label class = "name ">请选择时间间隔(M)</label>
+    <select  class="form-control "  v-model="selectedTime" onchange="changeTime(this.options[this.options.selectedIndex].value)">
+        <option selected  >0.083</option>
+        <option v-for="time in optionsTime" :value="time">{{time}}</option>
+    </select>
+
+
+    <input id="selectInput" type="hidden"  v-model="selectedItem" value="cpuAvg">
+    <input id="selectTime" type="hidden"  v-model="selectedTime"  >
+
+    </div>
+    <line-chart style="width:100%;height: 50%" ></line-chart>
+</div>
+
+
+</div>
+<div class="col-md-1"></div>
+
+</div>
+</body>
+</html>

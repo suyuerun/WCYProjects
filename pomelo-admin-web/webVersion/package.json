@@ -1,0 +1,24 @@
+{
+  "name": "pomelo-admin-web",
+  "version": "0.2.0",
+  "private": false,
+  "dependencies": {
+    "async": ">=0.1.0",
+    "cliff": ">=0.1.8",
+    "connect-favicons": "git://github.com/theworkers/connect-favicons.git",
+    "ejs": ">=0.0.1",
+    "express": "<4.0.0",
+    "optimist": ">=0.6.0",
+    "pomelo-admin": ">=1.0.0",
+    "pomelo-logger": ">=0.0.3",
+    "socket.io": "1.7.2"
+  },
+  "devDependencies": {
+    "element-ui": "^1.4.2",
+    "express-session": "^1.15.5",
+    "mysql": "^2.14.1",
+    "mysql2": "^1.4.0",
+    "routers": "^0.1.4",
+    "sequelize": "^4.4.2"
+  }
+}

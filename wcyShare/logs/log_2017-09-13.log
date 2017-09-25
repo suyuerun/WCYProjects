@@ -1,0 +1,1845 @@
+[2017-09-13 10:34:08.322] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '58_4785' ],
+  code: 'ERR' }
+[2017-09-13 10:34:16.803] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '128_10975' ],
+  code: 'ERR' }
+[2017-09-13 10:34:25.407] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 10:34:25.410] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 10:34:26.957] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '164_10975' ],
+  code: 'ERR' }
+[2017-09-13 10:34:34.368] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '133_10131' ],
+  code: 'ERR' }
+[2017-09-13 10:34:44.353] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '106_10975' ],
+  code: 'ERR' }
+[2017-09-13 10:34:55.403] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 10:34:55.404] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 10:34:55.406] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 10:35:02.742] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '162_10975' ],
+  code: 'ERR' }
+[2017-09-13 10:35:12.885] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '154_10975' ],
+  code: 'ERR' }
+[2017-09-13 10:35:22.405] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '124_10975' ],
+  code: 'ERR' }
+[2017-09-13 10:35:25.403] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 10:35:25.404] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 10:35:25.405] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 10:39:59.521] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '55_10131' ],
+  code: 'ERR' }
+[2017-09-13 10:40:04.823] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '124_10975' ],
+  code: 'ERR' }
+[2017-09-13 10:40:25.451] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 10:40:25.452] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 10:40:34.672] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '124_10975' ],
+  code: 'ERR' }
+[2017-09-13 10:40:48.325] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '32_4670' ],
+  code: 'ERR' }
+[2017-09-13 10:40:55.452] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 10:40:55.453] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 10:40:56.094] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '151_10131' ],
+  code: 'ERR' }
+[2017-09-13 10:41:05.006] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '175_10131' ],
+  code: 'ERR' }
+[2017-09-13 10:41:25.452] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 10:41:25.453] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 10:49:02.977] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '175_10131' ],
+  code: 'ERR' }
+[2017-09-13 10:49:25.521] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 11:10:40.852] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '175?_10131' ],
+  code: 'ERR' }
+[2017-09-13 11:10:41.735] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '175?_10131' ],
+  code: 'ERR' }
+[2017-09-13 11:10:41.964] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '175?_10131' ],
+  code: 'ERR' }
+[2017-09-13 11:10:50.098] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '57_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:10:50.865] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '57_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:10:59.957] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '57?_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:11:07.969] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 11:15:09.966] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '175?_10131' ],
+  code: 'ERR' }
+[2017-09-13 11:15:31.503] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '175?_10131' ],
+  code: 'ERR' }
+[2017-09-13 11:15:48.899] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '175?_10131' ],
+  code: 'ERR' }
+[2017-09-13 11:16:13.663] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '175?_10131' ],
+  code: 'ERR' }
+[2017-09-13 11:16:52.248] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '57?_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:17:17.237] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '57_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:17:18.010] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '57_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:17:18.494] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 11:17:20.615] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '175?_10131' ],
+  code: 'ERR' }
+[2017-09-13 11:17:48.170] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '175?_10131' ],
+  code: 'ERR' }
+[2017-09-13 11:17:49.883] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '175?_10131' ],
+  code: 'ERR' }
+[2017-09-13 11:21:50.808] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '57_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:21:51.480] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '57_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:21:57.057] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '47_4785' ],
+  code: 'ERR' }
+[2017-09-13 11:21:57.724] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '47_4785' ],
+  code: 'ERR' }
+[2017-09-13 11:21:59.554] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '82_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:22:00.102] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '82_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:22:00.782] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '125_10131' ],
+  code: 'ERR' }
+[2017-09-13 11:22:01.339] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '125_10131' ],
+  code: 'ERR' }
+[2017-09-13 11:22:01.951] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '161_10131' ],
+  code: 'ERR' }
+[2017-09-13 11:22:02.498] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '161_10131' ],
+  code: 'ERR' }
+[2017-09-13 11:22:03.141] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '137_10131' ],
+  code: 'ERR' }
+[2017-09-13 11:22:03.666] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '137_10131' ],
+  code: 'ERR' }
+[2017-09-13 11:22:07.300] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '135_10131' ],
+  code: 'ERR' }
+[2017-09-13 11:22:07.866] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '135_10131' ],
+  code: 'ERR' }
+[2017-09-13 11:22:08.800] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '131_10131' ],
+  code: 'ERR' }
+[2017-09-13 11:22:09.351] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '131_10131' ],
+  code: 'ERR' }
+[2017-09-13 11:22:10.396] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:22:10.901] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:22:18.257] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:22:18.498] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 11:22:18.499] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 11:22:18.501] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 11:22:18.503] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 11:22:18.504] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 11:22:18.506] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 11:22:18.508] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 11:22:18.511] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 11:22:18.514] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 11:22:18.795] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:22:28.663] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '183_10131' ],
+  code: 'ERR' }
+[2017-09-13 11:22:29.308] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '183_10131' ],
+  code: 'ERR' }
+[2017-09-13 11:22:38.181] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:22:38.695] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:22:46.211] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166?_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:22:48.499] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 11:22:48.500] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 11:23:02.910] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:23:03.551] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:23:18.500] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 11:23:20.079] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:23:20.735] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:23:48.503] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 11:23:52.731] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '91_4670' ],
+  code: 'ERR' }
+[2017-09-13 11:23:53.360] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '91_4670' ],
+  code: 'ERR' }
+[2017-09-13 11:23:54.592] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '99_10131' ],
+  code: 'ERR' }
+[2017-09-13 11:23:55.079] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '99_10131' ],
+  code: 'ERR' }
+[2017-09-13 11:23:56.463] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '72_10968' ],
+  code: 'ERR' }
+[2017-09-13 11:23:56.985] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '72_10968' ],
+  code: 'ERR' }
+[2017-09-13 11:23:59.262] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '62_10131' ],
+  code: 'ERR' }
+[2017-09-13 11:23:59.789] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '62_10131' ],
+  code: 'ERR' }
+[2017-09-13 11:24:07.622] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:24:08.173] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:24:18.501] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 11:24:18.502] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 11:24:18.504] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 11:24:18.505] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 11:24:18.506] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 11:24:22.567] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:24:23.111] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:24:41.916] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:24:48.502] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 11:24:57.026] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:24:58.879] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:25:13.201] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:25:50.246] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:26:37.933] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:27:33.528] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:27:40.925] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:27:51.745] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:28:06.422] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:31:55.661] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:32:01.722] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:35:22.232] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:35:32.699] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:37:09.845] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:38:58.513] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:39:07.095] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 11:44:20.065] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 13:36:21.073] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 13:37:06.853] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 13:37:23.818] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 13:37:34.649] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 13:37:44.965] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 13:38:05.001] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 13:42:15.891] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 13:42:18.543] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 13:42:19.733] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 13:42:28.282] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166_10975' ],
+  code: 'ERR' }
+[2017-09-13 13:42:38.065] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '66_10131' ],
+  code: 'ERR' }
+[2017-09-13 13:42:41.850] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '66_10131' ],
+  code: 'ERR' }
+[2017-09-13 13:42:48.547] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 13:42:50.940] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '149_10131' ],
+  code: 'ERR' }
+[2017-09-13 13:42:54.815] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '149_10131' ],
+  code: 'ERR' }
+[2017-09-13 13:42:57.519] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '42_4670' ],
+  code: 'ERR' }
+[2017-09-13 13:43:01.315] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '42_4670' ],
+  code: 'ERR' }
+[2017-09-13 13:43:02.902] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '140_10975' ],
+  code: 'ERR' }
+[2017-09-13 13:43:06.698] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '140_10975' ],
+  code: 'ERR' }
+[2017-09-13 13:43:11.037] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '119_10131' ],
+  code: 'ERR' }
+[2017-09-13 13:43:14.831] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '119_10131' ],
+  code: 'ERR' }
+[2017-09-13 13:43:18.544] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 13:43:18.550] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 13:43:18.553] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 13:43:18.556] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 13:45:01.905] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '114_10975' ],
+  code: 'ERR' }
+[2017-09-13 13:45:05.582] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '114_10975' ],
+  code: 'ERR' }
+[2017-09-13 13:45:18.549] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-13 13:45:20.840] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '55_10131' ],
+  code: 'ERR' }
+[2017-09-13 13:45:24.549] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '55_10131' ],
+  code: 'ERR' }
+[2017-09-13 13:45:48.549] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }

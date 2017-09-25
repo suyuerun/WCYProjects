@@ -1,0 +1,17 @@
+    pomelo-admin-web  服务
+
+    安装依赖：
+        npm install
+    运行：
+        npm start
+        打开浏览器，输入
+            127.0.0.1:7001
+    修改参数：
+        1.修改服务器端口：
+            修改./bin/www.js文件里的
+            var port = normalizePort(process.env.PORT || '7001');
+            app.set('port', port);
+            原端口为7001
+        2.修改服务器地址：
+            原ip为  192.168.1.185
+            ./public/static/js/app.877f16a38730a3dd6ea6.js文件里的开头，端口在www文件里修改之后也要改

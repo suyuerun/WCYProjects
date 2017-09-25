@@ -1,0 +1,68 @@
+{
+  "code": 200,
+  "msg": "OK",
+  "data": {
+    "rounds": [
+      1
+    ],
+    "actions": [
+      {
+        "seat": 0,
+        "action": 5,
+        "num": 995
+      }
+    ],
+    "gamers": [
+      {
+        "uid": 24,
+        "seat": 2,
+        "startChip": 10,
+        "endChip": 20,
+        "selfCard": [
+          45,
+          41
+        ],
+        "bigBlind": 10,
+        "showCard": [
+          45,
+          41
+        ],
+        "avatar": 1001,
+        "nick": "gamer0"
+      },
+      {
+        "uid": 10094,
+        "seat": 0,
+        "startChip": 1000,
+        "endChip": 990,
+        "selfCard": [
+          50,
+          14
+        ],
+        "showCard": [
+          50,
+          14
+        ]
+      }
+    ],
+    "pid": 1001,
+    "dealerSeat": 0,
+    "bigBlindSeat": 2,
+    "smallBlindSeat": 0,
+    "showCard": [
+      52,
+      11,
+      27,
+      35,
+      40
+    ],
+    "bigBlind": 10,
+    "smallBlind": 5,
+    "ante": 0,
+    "seatMax": 9,
+    "createAt": 1503456811675,
+    "AllLike": 0,
+    "AllPlay": 2,
+    "ShareUid": "24"
+  }
+}

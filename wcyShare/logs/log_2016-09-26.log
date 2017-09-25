@@ -1,0 +1,29 @@
+[2016-09-26 16:51:18.854] [ERROR] dateFileLog - shareOptTimes-Store { [Error: ER_NO_SUCH_TABLE: Table 'bolushare.myshare20160926' doesn't exist]
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  index: 0 }
+Error: ER_NO_SUCH_TABLE: Table 'bolushare.myshare20160926' doesn't exist
+    at Query.Sequence._packetToError (D:\web\nginx-1.6.3\html\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (D:\web\nginx-1.6.3\html\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (D:\web\nginx-1.6.3\html\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\web\nginx-1.6.3\html\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (D:\web\nginx-1.6.3\html\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\web\nginx-1.6.3\html\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    at TCP.onread (net.js:536:20)
+    --------------------
+    at Protocol._enqueue (D:\web\nginx-1.6.3\html\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (D:\web\nginx-1.6.3\html\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at D:\web\nginx-1.6.3\html\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (D:\web\nginx-1.6.3\html\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (D:\web\nginx-1.6.3\html\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (D:\web\nginx-1.6.3\html\wcyshare\dao\mysql\mysql.js:24:11)
+    at null._stroeCallback (D:\web\nginx-1.6.3\html\wcyshare\dao\shareDao.js:32:14)
+    at pro._store (D:\web\nginx-1.6.3\html\wcyshare\util\limitMap.js:183:14)
+    at null._repeat (D:\web\nginx-1.6.3\html\wcyshare\util\limitMap.js:164:26)
+    at wrapper [as _onTimeout] (timers.js:275:11)
+    at Timer.listOnTimeout (timers.js:92:15)

@@ -1,0 +1,37 @@
+{
+  "gameData": {
+    "message Action": {
+      "required sInt32 seat": 1,
+      "required sInt32 action": 2,
+      "optional sInt32 num": 3
+    },
+    "message Gamer": {
+      "required sInt32 uid": 1,
+      "required sInt32 seat": 2,
+      "required sInt32 startChip": 3,
+      "required sInt32 endChip": 4,
+      "repeated sInt32 selfCard": 5,
+      "optional sInt32 ante":6,
+      "optional sInt32 newBlind":7,
+      "optional sInt32 smallBlind":8,
+      "optional sInt32 bigBlind":9,
+      "repeated sInt32 showCard":10,
+      "required string nick":11,
+      "required string avatar":12
+    },
+    "repeated Gamer gamers": 1,
+    "repeated sInt32 rounds": 2,
+    "repeated Action actions": 3,
+    "repeated sInt32 showCard": 4,
+    "required sInt32 dealerSeat": 5,
+    "required sInt32 smallBlindSeat": 6,
+    "required sInt32 bigBlindSeat": 7,
+    "required sInt32 pid": 8,
+    "required sInt32 bigBlind":9,
+    "required sInt32 smallBlind":10,
+    "required sInt32 ante":11,
+    "required sInt32 seatMax":12,
+    "required sInt32 createAt":13,
+    "optional sInt32 matchPid":14
+  }
+}

@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title></title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <script src="/js/addMoney.js"></script>
+    <script src="/js/vue.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="/js/jquery-3.2.1.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<% include common %>
+<div class="serverList">
+
+    <!--<label for="name">玩家列表：</label>-->
+
+    <!--<table class="table table-hover table-bordered" style="width:80%;height:88px;font-size: medium;margin-left:10%">-->
+    <!--<input type="text" style="width:80%;height:auto;margin-left:10%" v-model="username" class="form-control" placeholder="请输入玩家昵称">-->
+    <!--<br>-->
+    <!--<thead>-->
+    <!--<tr>-->
+    <!--<th>玩家id</th>-->
+    <!--<th>玩家昵称</th>-->
+    <!--<th>所属服务器</th>-->
+    <!--<th>账户余额</th>-->
+    <!--<th>操作</th>-->
+    <!--</tr>-->
+    <!--</thead>-->
+    <!--<tbody v-for="(userItem,index) in newUsers">-->
+    <!--<tr id={{index+1}}>-->
+    <!--<td>{{index+1}}</td>-->
+    <!--<td >{{userItem.username}}</td>-->
+    <!--<td >{{userItem.serverId}}</td>-->
+    <!--<td>{{userItem.balance}}</td>-->
+    <!--<td><button class="btn btn-primary" data-toggle="modal" data-target="#addMoneymodal" v-on:click="motai(userItem.username,userItem.serverId,userItem.balance)">添加游戏币</button></td>-->
+    <!--</tr>-->
+    <!--</tbody>-->
+    <!--</table>-->
+
+    <% include addMoneyMotai.ejs %>
+
+    <input type="text" v-model="uid" class="form-control " style="margin-left: 30%;margin-top: 3%;width: 50%"placeholder="请输入uid">
+    <input type="text" v-model="gold" class="form-control" style="margin-left: 30%;margin-top: 3%;width: 50%" placeholder="请输入添加金额">
+    <select  class="form-control" style="width: 10%;z-index:20;margin-left: 35%;margin-top: 1.5em" v-model="assetType">
+        <option value="gold">游戏币</option>
+        <option value="bean">梦幻豆</option>
+    </select>
+
+    <button @click=addAssets(uid,gold,assetType) class="btn btn-primary " style="margin-left: 55%;margin-top: 3%;">添加</button>
+</div>
+</div>
+<div class="col-md-1"></div>
+
+</div>
+</body>
+</html>

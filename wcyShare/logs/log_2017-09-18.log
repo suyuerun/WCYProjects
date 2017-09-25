@@ -1,0 +1,6 @@
+[2017-09-18 19:09:51.817] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '166?_10975' ],
+  code: 'ERR' }

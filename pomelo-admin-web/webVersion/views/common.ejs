@@ -1,0 +1,199 @@
+<script src="/js/client.js"></script>
+<script src="/js/jquery-3.2.1.min.js"></script>
+<script src="/js/socket.io.js"></script>
+<script src="/js/util/protocol.js"></script>
+<script>
+    var myDate = new Date();
+    var uname = '<%- loginbean.uname %>';
+    var host = '<%= host %>';
+    var port = '<%= port %>';
+    var username = '<%= username %>';
+    var password = '<%= password %>';
+    var client = window.client = new ConsoleClient({
+        username: username,
+        password: password,
+        md5: true
+    });
+    // TODO: add login logic
+    client.connect(uname + '-' + myDate.getFullYear() + '-' + myDate.getMonth() + '-' + myDate.getDate() + ' ' + myDate.getHours() + ':' + myDate.getMinutes() + ':' + myDate.getSeconds(), host, port, function (err) {
+        if (err) {
+            console.error('fail to connect to admin console server:');
+            console.error(err);
+            alert(err);
+        } else {
+            console.info('admin console connected.');
+        }
+    });
+</script>
+<style>
+    .panel-group {
+        max-height: 770px;
+        overflow: auto;
+    }
+
+    .leftMenu {
+        margin: 10px;
+        margin-top: 5px;
+    }
+
+    .leftMenu .panel-heading {
+        font-size: 14px;
+        padding-left: 20px;
+        height: 36px;
+        line-height: 36px;
+        color: white;
+        position: relative;
+        cursor: pointer;
+    }
+
+    /*转成手形图标*/
+    .leftMenu .panel-heading span {
+        position: absolute;
+        right: 10px;
+        top: 12px;
+    }
+
+    .leftMenu .menu-item-left {
+        padding: 2px;
+        background: transparent;
+        border: 1px solid transparent;
+        border-radius: 6px;
+    }
+
+    .leftMenu .menu-item-left:hover {
+        background: #C4E3F3;
+        border: 1px solid #1E90FF;
+    }
+    .leftStyle{
+        background:#337AB7;
+        height:110%;
+
+    }
+    body{
+        background-color: #fefefe;
+    }
+</style>
+
+<% if(loginbean){ %>
+<div class="dropdown" style='background:#337AB7; height: auto;position: absolute;z-index: 20;padding-top:20px;margin-left:90%;'>
+    <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">你好,<%- loginbean.uname %>
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+        <% if(loginbean.role > 0){ %>
+        <li role="presentation">
+            <a href='/user/adminManage/'>管理员空间</a>&nbsp;
+        </li>
+        <% }if(loginbean.role == 0){ %>
+        <li role="presentation">
+            <a href='/user/adminManage/'>管理员空间</a>&nbsp;
+        </li>
+        <% } %>
+        <li role="presentation">
+            <a href='/user/loginout'>注销</a>
+        </li>
+
+    </ul>
+    <% } %>
+</div>
+<div style="background: #337AB7;z-index: 20;height: 6em;border-bottom:1px #a1a1a1 solid;color:#fff; ">
+<span style="text-align: center;"><h1 style="margin-top: 0em;margin-bottom: 0em;padding-top: 20px ;color:white"><%-loginbean.uname%>的AdminConsole</h1></span>
+</div>
+<script>
+    function load(pageName) {//pageName是页面的哪个控件的pageName
+        location.href = '/'+pageName;
+    }
+</script>
+<script>
+    $(function () {
+        $(".panel-heading").click(function (e) {
+            /*切换折叠指示图标*/
+            $(this).find("span").toggleClass("glyphicon-chevron-down");
+            $(this).find("span").toggleClass("glyphicon-chevron-up");
+        });
+    });
+</script>
+<div class="row">
+    <div class="col-md-2 leftStyle">
+        <div class="panel-group table-responsive" role="tablist">
+            <div class="panel panel-primary leftMenu">
+                <!-- 利用data-target指定要折叠的分组列表 -->
+                <div class="panel-heading" id="collapseListGroupHeading1" data-toggle="collapse" data-target="#collapseListGroup1" role="tab">
+                    <h4 class="panel-title">
+                        数据监测
+                        <span class="glyphicon glyphicon-chevron-up right"></span>
+                    </h4>
+                </div>
+                <!-- .panel-collapse和.collapse标明折叠元素 .in表示要显示出来 -->
+                <div id="collapseListGroup1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="collapseListGroupHeading1">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <!-- 利用data-target指定URL -->
+                            <button class="menu-item-left" data-target="test2.html">
+                                <span class="glyphicon glyphicon-triangle-right"></span><a onclick="load('onlineUser')">onlineUser</a>
+                            </button>
+                        </li>
+                        <li class="list-group-item">
+                            <button class="menu-item-left">
+                                <span class="glyphicon glyphicon-triangle-right"></span><a onclick="load('systemInfo')">systemInfo</a>
+                            </button>
+                        </li>
+                        <li class="list-group-item">
+                            <button class="menu-item-left">
+                                <span class="glyphicon glyphicon-triangle-right"></span><a onclick="load('nodeInfo')">nodeInfo</a>
+                            </button>
+                        </li>
+
+                    </ul>
+                </div>
+            </div><!--panel end-->
+
+            <!--<div class="panel panel-primary leftMenu">-->
+                <!--<div class="panel-heading" id="collapseListGroupHeading2" data-toggle="collapse" data-target="#collapseListGroup2" role="tab">-->
+                    <!--<h4 class="panel-title">-->
+                        <!--脚本运行-->
+                        <!--<span class="glyphicon glyphicon-chevron-down right"></span>-->
+                    <!--</h4>-->
+                <!--</div>-->
+                <!--<div id="collapseListGroup2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading2">-->
+                    <!--<ul class="list-group">-->
+                        <!--<li class="list-group-item">-->
+                            <!--<button class="menu-item-left">-->
+                                <!--<span class="glyphicon glyphicon-triangle-right"></span><a onclick="load('scripts')">scripts</a>-->
+                            <!--</button>-->
+                        <!--</li>-->
+
+                    <!--</ul>-->
+                <!--</div>-->
+            <!--</div>-->
+            <div class="panel panel-primary leftMenu">
+                <div class="panel-heading" id="collapseListGroupHeading3" data-toggle="collapse" data-target="#collapseListGroup3" role="tab">
+                    <h4 class="panel-title">
+                        GM操作
+                        <span class="glyphicon glyphicon-chevron-down right"></span>
+                    </h4>
+                </div>
+                <div id="collapseListGroup3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading3">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <button class="menu-item-left">
+                                <span class="glyphicon glyphicon-triangle-right"></span><a onclick="load('addMoney')">addMoney</a>
+                            </button>
+                        </li>
+                        <li class="list-group-item">
+                            <button class="menu-item-left">
+                                <span class="glyphicon glyphicon-triangle-right"></span><a onclick="load('addItems')">addItems</a>
+                            </button>
+                        </li>
+                        <li class="list-group-item">
+                            <button class="menu-item-left">
+                                <span class="glyphicon glyphicon-triangle-right"></span><a onclick="load('sendEmail')">sendEmail</a>
+                            </button>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-9" >

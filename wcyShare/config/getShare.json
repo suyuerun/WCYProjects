@@ -1,0 +1,63 @@
+{
+  "code": 200,
+  "msg": "OK",
+  "data": {
+    "rounds": [
+      1
+    ],
+    "actions": [
+      {
+        "seat": 0,
+        "action": 1
+      }
+    ],
+    "gamers": [
+      {
+        "uid": 10131,
+        "seat": 0,
+        "startChip": 20000,
+        "endChip": 19580,
+        "nick": "%E5%B0%B1%E4%B8%8D%E5%91%8A%E8%AF%89%E4%BD%A0",
+        "avatar": "1011",
+        "ante": 70,
+        "selfCard": [
+          42,
+          28
+        ],
+        "showCard": [
+          0,
+          0
+        ]
+      },
+      {
+        "uid": 10975,
+        "seat": 8,
+        "startChip": 20000,
+        "endChip": 20420,
+        "nick": "%E8%83%BD%E7%8C%9C%E5%88%B0%E6%88%91%E8%B0%81%E4%B8%8D",
+        "avatar": "1006",
+        "ante": 70,
+        "selfCard": [
+          10,
+          12
+        ],
+        "bigBlind": 700,
+        "showCard": [
+          0,
+          0
+        ]
+      }
+    ],
+    "pid": 1000,
+    "dealerSeat": 0,
+    "bigBlindSeat": 8,
+    "smallBlindSeat": 0,
+    "bigBlind": 700,
+    "smallBlind": 350,
+    "ante": 70,
+    "seatMax": 9,
+    "matchPid": 1029,
+    "createAt": 1504843678380,
+    "ShareUid": "10975"
+  }
+}

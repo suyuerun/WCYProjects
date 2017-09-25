@@ -1,0 +1,38 @@
+{
+  "name": "express-pomelo-admin",
+  "version": "0.0.0",
+  "private": false,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "async": ">=0.1.0",
+    "body-parser": "~1.17.1",
+    "cliff": ">=0.1.8",
+    "connect-favicons": "git://github.com/theworkers/connect-favicons.git",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "ejs": ">=0.0.1",
+    "element-ui": "^1.4.2",
+    "express": "~4.15.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.8.1",
+    "optimist": ">=0.6.0",
+    "pomelo-admin": ">=1.0.0",
+    "pomelo-logger": ">=0.0.3",
+    "serve-favicon": "~2.4.2",
+    "socket.io": "1.7.2"
+  },
+  "devDependencies": {
+    "cookie-parser": "^1.4.3",
+    "csv": "^1.1.1",
+    "express-session": "^1.15.5",
+    "extjs": "^0.1.0",
+    "mqtt": "^2.11.0",
+    "mysql": "^2.14.1",
+    "mysql2": "^1.4.1",
+    "sequelize": "^4.5.0",
+    "serve-favicon": "^2.4.3",
+    "socket.io": "^1.7.2"
+  }
+}

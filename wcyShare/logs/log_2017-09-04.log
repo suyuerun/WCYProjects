@@ -1,0 +1,2643 @@
+[2017-09-04 09:49:29.225] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 09:49:29.228] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 09:50:59.225] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 09:52:59.229] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 09:54:29.228] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 09:55:29.229] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 09:55:59.230] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 09:56:29.229] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 09:58:59.233] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 09:59:29.234] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 09:59:59.234] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:00:59.234] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:01:29.234] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:11:35.489] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:12:36.717] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:13:48.808] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:14:18.807] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:16:48.807] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:17:48.808] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:18:18.808] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:19:18.811] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:19:48.811] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:25:18.813] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:25:48.813] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:25:48.814] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:28:18.813] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:29:48.814] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:33:48.817] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:34:48.818] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:35:48.816] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:36:18.816] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:36:48.817] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:37:18.818] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:38:18.818] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:39:18.821] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:39:48.825] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:40:18.821] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:41:18.821] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:41:48.827] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:42:18.827] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:54:53.414] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:55:23.413] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 10:57:23.417] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:347:9
+    at Object.create (E:\wcyshare\dao\mysql\dao-pool.js:18:4)
+    at Pool._createResource (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:325:17)
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:313:12)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 11:03:51.812] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:347:9
+    at Object.create (E:\wcyshare\dao\mysql\dao-pool.js:18:4)
+    at Pool._createResource (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:325:17)
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:313:12)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 11:09:08.857] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 11:09:38.855] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 11:10:38.859] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:347:9
+    at Object.create (E:\wcyshare\dao\mysql\dao-pool.js:18:4)
+    at Pool._createResource (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:325:17)
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:313:12)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 11:12:38.864] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 11:13:08.858] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 11:14:08.861] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 11:15:08.862] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 11:15:38.863] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 11:17:38.864] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 11:22:05.659] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:347:9
+    at Object.create (E:\wcyshare\dao\mysql\dao-pool.js:18:4)
+    at Pool._createResource (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:325:17)
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:313:12)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 13:49:35.394] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 14:19:22.946] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 14:20:15.323] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 14:29:18.681] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 14:29:48.684] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 14:33:39.541] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 14:35:38.232] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 14:36:38.234] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 14:38:08.233] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 14:38:51.662] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 14:44:33.115] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 14:47:26.506] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 14:50:11.345] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 14:50:41.345] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 14:51:59.280] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 14:53:59.284] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 14:54:49.016] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:347:9
+    at Object.create (E:\wcyshare\dao\mysql\dao-pool.js:18:4)
+    at Pool._createResource (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:325:17)
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:313:12)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 14:56:59.601] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 15:00:56.365] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 15:04:49.535] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 15:10:33.581] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:347:9
+    at Object.create (E:\wcyshare\dao\mysql\dao-pool.js:18:4)
+    at Pool._createResource (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:325:17)
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:313:12)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 15:16:31.733] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:347:9
+    at Object.create (E:\wcyshare\dao\mysql\dao-pool.js:18:4)
+    at Pool._createResource (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:325:17)
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:313:12)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 15:20:02.827] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '1076_86' ],
+  code: 'ERR' }
+[2017-09-04 15:20:02.854] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:347:9
+    at Object.create (E:\wcyshare\dao\mysql\dao-pool.js:18:4)
+    at Pool._createResource (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:325:17)
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:313:12)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 15:28:13.219] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '1076_86' ],
+  code: 'ERR' }
+[2017-09-04 15:28:13.237] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 15:32:12.932] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '1076_86' ],
+  code: 'ERR' }
+[2017-09-04 15:32:15.956] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 15:33:31.277] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '1076_86' ],
+  code: 'ERR' }
+[2017-09-04 15:33:47.553] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 15:35:05.386] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '1076_86' ],
+  code: 'ERR' }
+[2017-09-04 15:35:05.395] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:347:9
+    at Object.create (E:\wcyshare\dao\mysql\dao-pool.js:18:4)
+    at Pool._createResource (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:325:17)
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:313:12)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 15:37:58.690] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '1076_86' ],
+  code: 'ERR' }
+[2017-09-04 15:37:58.717] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:347:9
+    at Object.create (E:\wcyshare\dao\mysql\dao-pool.js:18:4)
+    at Pool._createResource (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:325:17)
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:313:12)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 17:44:53.226] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '1076_86' ],
+  code: 'ERR' }
+[2017-09-04 17:45:20.531] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 17:49:03.908] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '1076_86' ],
+  code: 'ERR' }
+[2017-09-04 17:49:27.126] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 17:56:22.141] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '1076_86' ],
+  code: 'ERR' }
+[2017-09-04 17:56:42.912] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '1076_86' ],
+  code: 'ERR' }
+[2017-09-04 18:00:24.311] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '1076_86' ],
+  code: 'ERR' }
+[2017-09-04 18:00:26.006] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 18:01:04.058] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '1076_86' ],
+  code: 'ERR' }
+[2017-09-04 18:01:07.165] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '1076_86' ],
+  code: 'ERR' }
+[2017-09-04 18:01:31.736] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-04 18:02:11.101] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '1076_86' ],
+  code: 'ERR' }
+[2017-09-04 18:02:13.750] [ERROR] dateFileLog - recommendCacheAdd-add { ReplyError: ERR wrong number of arguments for 'zadd' command
+    at parseError (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:163:12)
+    at parseType (E:\wcyshare\node_modules\redis\node_modules\redis-parser\lib\parser.js:224:14)
+  command: 'ZADD',
+  args: [ 'share:recommend', '1076_86' ],
+  code: 'ERR' }
+[2017-09-04 18:02:39.610] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'gameId' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:38:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }

@@ -1,0 +1,24 @@
+<!-- 模态框（Modal） -->
+<div class="modal fade serverList" id="addMoneymodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">添加金额</h4>
+            </div>
+
+            <div class="modal-body serverList" >
+               <p v-model="usernamed" >玩家昵称：{{usernamed}} </p>
+                <p v-model="serverId" >所在服务器：{{serverId}} </p>
+                <p v-model="balance" >目前金额：{{balance}} </p>
+                <span>请输入所添加的金额：</span>
+                <input type="number" class="form-control number" id="money" style="margin-top: 1.5em" placeholder="请输入添加金额" v-model="addMoney">
+
+            </div>
+            <div class="modal-footer">
+                <input type="submit" class="btn btn-primary" value="提交更改" @click="add(usernamed,serverId,addMoney)">
+            </div>
+
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>

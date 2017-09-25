@@ -1,0 +1,325 @@
+[2017-08-29 18:04:23.123] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'SvrID' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:32:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-08-29 18:04:53.118] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_NO_SUCH_TABLE: Table 'bolushare.myshare20170829' doesn't exist
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:32:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  index: 0 }
+[2017-08-29 18:07:23.119] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'SvrID' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:32:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-08-29 18:07:23.120] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'SvrID' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:32:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-08-29 18:07:53.120] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_NO_SUCH_TABLE: Table 'bolushare.myshare20170829' doesn't exist
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:32:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  index: 0 }
+[2017-08-29 18:07:53.120] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'SvrID' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:32:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-08-29 18:12:23.127] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'SvrID' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:347:9
+    at Object.create (E:\wcyshare\dao\mysql\dao-pool.js:17:4)
+    at Pool._createResource (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:325:17)
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:313:12)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:32:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-08-29 18:15:50.789] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'SvrID' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:32:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-08-29 18:37:20.799] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'SvrID' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:347:9
+    at Object.create (E:\wcyshare\dao\mysql\dao-pool.js:17:4)
+    at Pool._createResource (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:325:17)
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:313:12)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:32:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-08-29 18:37:50.799] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'SvrID' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:32:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-08-29 18:39:50.804] [ERROR] dateFileLog - shareOptTimes-Store { Error: ER_BAD_FIELD_ERROR: Unknown column 'SvrID' in 'where clause'
+    at Query.Sequence._packetToError (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Sequence.js:51:14)
+    at Query.ErrorPacket (E:\wcyshare\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\wcyshare\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\wcyshare\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Protocol._enqueue (E:\wcyshare\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (E:\wcyshare\node_modules\mysql\lib\Connection.js:214:25)
+    at E:\wcyshare\dao\mysql\mysql.js:31:16
+    at Pool.dispense [as _dispense] (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:310:14)
+    at Pool.acquire (E:\wcyshare\node_modules\generic-pool\lib\generic-pool.js:388:8)
+    at Object.NND.query (E:\wcyshare\dao\mysql\mysql.js:24:11)
+    at LimitMap._stroeCallback (E:\wcyshare\dao\shareDao.js:32:14)
+    at LimitMap.pro._store (E:\wcyshare\util\limitMap.js:183:14)
+    at Timeout._onTimeout (E:\wcyshare\util\limitMap.js:164:26)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }

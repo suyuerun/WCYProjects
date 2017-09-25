@@ -1,0 +1,112 @@
+<html>
+<head>
+    <title></title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <script src="/js/systemInfo.js"></script>
+    <script src="/js/vue.min.js"></script>
+    <script src="/js/vue-chartjs.full.min.js"></script>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <script src="/js/jquery-3.2.1.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <style>
+        .align{
+            width: 10%;
+            z-index:20;
+            margin-left:98%;
+            margin-top: 0em;
+            float: none;
+            position: absolute;
+
+        }
+        </style>
+</head>
+<body>
+<%include common%>
+
+<div id="content">
+<table class="table table-bordered table-hover text-center" style="width:70%;height:50%;font-size: small">
+    <caption> 系统信息</caption>
+    <thead >
+    <tr >
+        <th class="text-muted text-center" rowspan="2">id</th>
+        <th class="text-muted text-center" rowspan="2">time</th>
+        <th class="text-muted text-center" rowspan="2">hostname</th>
+        <th class="text-muted text-center" rowspan="2">serverId</th>
+        <th class="text-muted text-center" colspan="3">loadavg</th>
+        <th class="text-muted text-center" colspan="3">mem</th>
+        <th class="text-muted text-center" colspan="6">CPU(I/O)</th>
+        <th class="text-muted text-center" colspan="5">CPU(I/O)</th>
+    </tr>
+    <tr>
+
+        <td>1m</td>
+        <td>5m</td>
+        <td>15m</td>
+        <td>totalmem</td>
+        <td>freemem</td>
+        <td>free/total</td>
+        <td>user</td>
+        <td>nice</td>
+        <td>system</td>
+        <td>iowait</td>
+        <td>steal</td>
+        <td>idle</td>
+        <td>tps</td>
+        <td>kb_read</td>
+        <td>kb_wrtn</td>
+        <td>kb_read/s</td>
+        <td>kb_wrtn/s</td>
+
+    </tr>
+    </thead>
+    <tbody >
+
+    <tr v-for="(k,v,index) in msg">
+        <td nowrap="nowrap">{{index+1}}</td>
+        <td nowrap="nowrap">{{k.Time}}</td>
+        <td nowrap="nowrap">{{k.hostname}}</td>
+        <td nowrap="nowrap">{{v}}</td>
+        <td>{{k.m_1}}</td>
+        <td>{{k.m_5}}</td>
+        <td>{{k.m_15}}</td>
+        <td>{{k.totalmem}}</td>
+        <td>{{k.freemem}}</td>
+        <td>{{k.freemem/k.totalmem}}</td>
+        <td>{{k.cpu_user}}</td>
+        <td>{{k.cpu_nice}}</td>
+        <td>{{k.cpu_system}}</td>
+        <td>{{k.cpu_iowait}}</td>
+        <td>{{k.cpu_steal}}</td>
+        <td>{{k.cpu_idle}}</td>
+        <td>{{k.tps}}</td>
+        <td>{{k.kb_read}}</td>
+        <td>{{k.kb_wrtn}}</td>
+        <td>{{k.kb_read_per}}</td>
+        <td>{{k.kb_wrtn_per}}</td>
+    </tr>
+    </tbody>
+</table>
+    <div class="align" v-show="msg!=={}">
+    <label class = "name " >请选择所显示的项目</label>
+    <select  class="form-control "  v-model="selectedItem">
+        <option selectedItem >1m</option>
+        <option v-for="opt in options" :value="opt">{{opt}}</option>
+    </select>
+    <label class = "name ">请选择时间间隔(M)</label>
+    <select  class="form-control "  v-model="selectedTime" onchange="changeTime(this.options[this.options.selectedIndex].value)">
+        <option selected  >0.083</option>
+        <option v-for="time in optionsTime" :value="time">{{time}}</option>
+    </select>
+    <input id="selectInput" type="hidden"  v-model="selectedItem" value="m_1">
+    <input id="selectTime" type="hidden"  v-model="selectedTime"  >
+    </div>
+    <line-chart style="width:100%;height: 50%" ></line-chart>
+
+</div>
+</div>
+<div class="col-md-1"></div>
+</div>
+</body>
+</html>

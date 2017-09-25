@@ -1,0 +1,31 @@
+{
+  "name": "wcylog",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "async": "^2.0.1",
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "^2.5.2",
+    "express": "~4.13.4",
+    "express-validator": "^2.20.8",
+    "generic-pool": ">=1.0.9",
+    "jade": "~1.11.0",
+    "log": "^1.4.0",
+    "memory-cache": ">=0.1.6",
+    "moment": "~2.14.1",
+    "morgan": "~1.7.0",
+    "mysql": ">=2.0",
+    "redis": "~2.6.2",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "mongoose": "^4.11.9",
+    "pomelo-protobuf": "^0.4.0",
+    "response-send": "^0.0.1"
+  }
+}

@@ -1,0 +1,99 @@
+<!doctype html>
+<html ng-app="shareApp"  ng-init="gameId='<%=gameId%>';uid='<%=uid%>';AllLike='<%=AllLike%>';AllPlay='<%=AllPlay%>'">
+    <head>
+        <meta charset="utf-8">
+        <title>ACE德州扑克-牌谱回放</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="target-densitydpi=device-dpi, width=750px, user-scalable=no">
+        <meta name="format-detection" content="telephone=no">  
+        <script src="/js/wcy/bower_components/angular/angular.js"></script>
+        <script src="/js/wcy/bower_components/angular-route/angular-route.min.js"></script>
+        <script src="/js/wcy/share.config.js"></script>
+    </head>
+    <body style='background-color: rgb(101, 101, 101); margin: 0; text-align: center'>
+
+        <div style="margin: 0px auto; width: 750px; background-color: white;overflow: hidden;position: relative;">
+            <!--动画播放-begin-->			
+            <div style="overflow:hidden;">
+                <iframe src="<%=sharePlaypanelUrl%>" style="border:0px;width:750px;height:356px;"></iframe>
+            </div>
+            <!--动画播放-end-->
+            
+            <!--牌局信息-begin-->
+            <div ng-controller="shareInfo">
+                <div style="margin-top: 30px; margin-right: 40px; margin-left: 40px; height: 44px; text-align: left;">
+                    <div style="margin-left: 0px; float: left; font-size: 16px; line-height: 44px; color: #605d5d;">
+                        注：横置移动设备可以全屏观哦！
+                    </div>
+                    <div style="float: right;margin-right: 20px;line-height: 32px;">
+                        <div style='width: 44px; float: left'>
+                            <img src='/img/zan.png' ng-show="!isLiked" ng-click="like()"/>
+                            <img src='/img/zan_pressed.png' ng-show="isLiked" ng-click="dislike()"/>
+                        </div>
+                        <div style="width: 56px; float: left; line-height: 44px; font-size: 24px; color: #c6c6c5; text-align: left" >{{AllLike}}</div>
+                    </div>
+                    <div style="float: right;margin-right: 20px;line-height: 32px;">
+                        <div style='width: 44px; float: left'><img src='/img/eye.png'/></div>
+                        <div  style="width: 56px; float: left; line-height: 44px; font-size: 24px; color: #c6c6c5; text-align: left">{{AllPlay}}</div>
+                    </div>
+                </div>
+                <div style="height: 1px; background-color: #d0d0d0; margin: 11px 11px 0px 11px; clear: both"></div>
+            </div>
+            <div style="clear:both;height:20px;"></div>
+            <!--牌局信息-end-->
+
+            <!--牌局推荐-begin-->
+            <div ng-controller="recommend"  style="margin: 20px 40px;width:680px; height: 443px; clear: both;">
+                <div>
+                    <div style="color: #525252; font-size: 24px; text-align: left;float: left;">
+                        精彩牌局推荐
+                    </div>
+                    <div style="background-color: #FFFFFF; font-size: 16px; text-align: right;float: right;cursor: pointer" class="btn btn-default" ng-click="refresh()">
+                        换一批
+                    </div>
+                    <div style="clear: both;"></div>
+                </div>
+                <div style="margin-left:20px;">
+                    <div  ng-repeat="recommendRow in recommends" style='float: left; width: 284px; height: 102px; border-radius: 8px; border-width: 0px; margin-top: 12px; margin-left: 12px; background-color: rgb(228, 228, 228);'>
+                        <a href="/share/{{recommendRow.gameId}}/{{recommendRow.winUserID}}">
+                            <div style="float: left; position: relative;margin-left: 15px; width: 75px;height: 71px;margin-top: 15px;" >
+                                <div ng-repeat="reconmmendCards in recommendRow.winSlefCardUrl" style="float: left">
+                                    <img style ='height: 50px;width: auto;' src="{{reconmmendCards}}"/>
+
+                                </div>
+                                <span style="color: black;">获胜手牌</span>
+                            </div>
+                            <div style="float: left; margin-left: 14px; position: relative;font-size: 16px;color: #696a6c;width: 161px;height: 71px;margin-top: 15px;">
+                                <div style="width: 161px;height:44px;text-align: left;word-wrap:break-word; word-break:break-all;display:block;overflow:hidden;text-overflow-ellipsis: true">{{recommendRow.WinNick}}</div>
+                                <div style="top: 56px;height: 40px;">
+                                    <!--<div style="float:left">赢金额：{{recommendRow.WinScore}}</div>-->
+                                    <div style="float:left;margin-left:20px;">
+                                        <div style="float:left">
+                                            <img src="/img/eye_small.png"/>
+                                        </div>
+                                        <div style="float:left;margin-left:4px;">
+                                            {{recommendRow.AllPlay}}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--牌局推荐-end-->
+
+            <!--底部下载广告-begin-->
+            <div ng-controller="footAD" style='bottom: 0px;width: 750px; height: 90px; margin-top: -3px; float:left; text-align: left;position: relative;'>
+                <div  style="position: fixed;bottom: 0px; z-index: 1001; width: 750px; height: 90px;" ng-show="footAdShow">
+                    <!--<img src="/img/downloadbanner.png" onclick="window.location.href = 'http://com.wcygame.AceTexas'">-->
+                    <span style="font-size: x-large" onclick="window.location.href = 'http://acetexas.wcygame.com/'" >ACE德州扑克</span>
+
+                    <img src="/img/close_ad.png" style="position: absolute;right: 0px; bottom: 5px;"  ng-click="closeAd()" >
+
+                </div>
+            </div>
+            <!--底部下载广告-end-->
+        </div>
+    </body>
+</html>

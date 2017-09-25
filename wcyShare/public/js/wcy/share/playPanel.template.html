@@ -1,0 +1,28 @@
+<!--动画播放-begin-->			
+<div style="overflow:hidden;">
+    <img style='border:0px;margin:0px;' src='/img/game.png'/>
+</div>
+<!--动画播放-end-->	
+
+<!--牌局信息-begin-->
+<div>
+    <div style="margin-top: 30px; margin-right: 40px; margin-left: 40px; height: 44px; text-align: left;">
+        <div style="margin-left: 0px; float: left; font-size: 16px; line-height: 44px; color: #605d5d;">
+            注：横置移动设备可以全屏观哦！
+        </div>
+        <div style="float: right;margin-right: 20px;line-height: 32px;">
+            <div style='width: 44px; float: left'>
+                <img src='/img/zan.png' ng-show="!isLiked" ng-click="like()"/>
+                <img src='/img/zan_pressed.png' ng-show="isLiked"/>
+            </div>
+            <div style="width: 56px; float: left; line-height: 44px; font-size: 24px; color: #c6c6c5; text-align: left" >{{share.AllLike}}</div>
+        </div>
+        <div style="float: right;margin-right: 20px;line-height: 32px;">
+            <div style='width: 44px; float: left'><img src='/img/eye.png'/></div>
+            <div  style="width: 56px; float: left; line-height: 44px; font-size: 24px; color: #c6c6c5; text-align: left">{{share.AllPlay}}</div>
+        </div>
+    </div>
+    <div style="height: 1px; background-color: #d0d0d0; margin: 11px 11px 0px 11px; clear: both"></div>
+</div>
+<div style="clear:both;height:20px;"></div>
+<!--牌局信息-end-->

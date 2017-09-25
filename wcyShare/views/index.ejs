@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>测试protobuf decode</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <script src="/js/UI/vue.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue-resource@1.3.4"></script>
+    </head>
+    <body>
+        <div id="app">
+          {{ message }}
+          <br>
+          <button class="btn btn_default" @click="getSql">获取数据库的值</button>
+        </div>
+        <script>
+        var message = '暂无数据';
+            var app = new Vue({
+              el: '#app',
+              data: {
+                message: message
+              },
+              methods:{
+                getSql:function(){
+                    
+                    // GET /someUrl
+                      this.$http.get('/getShared').then(response => {
+
+                        // get body data
+                        var messageb = response.body;
+                        this.message =messageb;
+                      }, response => {
+                        // error callback
+                      });
+                }
+              }
+            })
+        </script>
+    </body>
+</html>
